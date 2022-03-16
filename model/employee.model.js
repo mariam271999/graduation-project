@@ -37,7 +37,7 @@ technicalSkill:[{
 
 } ]
 ,
-project:{
+project:[{
     tittle:String,
     desc:String,
     time:Number,
@@ -45,12 +45,13 @@ project:{
     skill:[{tool:String,desc:String}]
    
 
-}
+}]
 ,
 courseTittle:[String]
 })
 
-const employeeModule= mongoose.model('employee',employeeSchema)
+
+const employeeModule= mongoose.model('sm',employeeSchema)
 
 module.exports= employeeModule
 
